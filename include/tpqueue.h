@@ -1,5 +1,7 @@
+// Copyright 2022
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
+
 template<typename T>
 class TPQueue {
  private:
@@ -14,6 +16,7 @@ class TPQueue {
     return p;
   }
   ITEM* head;
+ 
  public:
   TPQueue() :head(nullptr) {}
   T pop() {
