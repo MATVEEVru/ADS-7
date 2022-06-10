@@ -1,7 +1,6 @@
 // Copyright 2022
 #ifndef INCLUDE_TPQUEUE_H_
 #define INCLUDE_TPQUEUE_H_
-
 template<typename T>
 class TPQueue {
  private:
@@ -16,7 +15,7 @@ class TPQueue {
     return p;
   }
   ITEM* head;
- 
+
  public:
   TPQueue() :head(nullptr) {}
   T pop() {
@@ -53,4 +52,4 @@ struct SYM {
   char ch;
   int prior;
 };
-#endif
+#endif  // INCLUDE_TPQUEUE_H_
